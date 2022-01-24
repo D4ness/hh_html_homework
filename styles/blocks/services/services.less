@@ -1,0 +1,35 @@
+.service-item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &__image {
+    width: 40px;
+    height: $width;
+    margin-right: 22px;
+
+    @media @screen-gt-s {
+      margin-right: 10px;
+    }
+
+    @media @screen-gt-m {
+      margin-right: 30px;
+    }
+  }
+
+  &__text {
+    width: 210px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+  }
+
+  &__br {
+    display: none;
+
+    @media @screen-gt-s {
+      display: block;
+    }
+  }
+}
