@@ -317,22 +317,22 @@ body {
     padding-bottom: 40px;
   }
 }
-.section-content__services {
+.section-content_services {
   background-color: #eee;
   padding: 30px 0 0;
 }
 @media (min-width: 768px) {
-  .section-content__services {
+  .section-content_services {
     padding-top: 30px;
     padding-bottom: 0px;
   }
 }
-.section-content__footer {
+.section-content_footer {
   background-color: #212122;
   padding: 30px 0;
 }
 @media (min-width: 768px) {
-  .section-content__footer {
+  .section-content_footer {
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -374,16 +374,6 @@ body {
     height: 40px;
     line-height: 40px;
     font-size: 14px;
-  }
-}
-.services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-@media (min-width: 768px) {
-  .services {
-    flex-direction: row;
   }
 }
 .service-item {
@@ -432,43 +422,6 @@ body {
     justify-content: space-between;
   }
 }
-.footer-top__icons-container {
-  padding-bottom: 30px;
-}
-.footer-top__icons-container_desktop {
-  display: none;
-}
-@media (min-width: 1000px) {
-  .footer-top__icons-container_desktop {
-    display: block;
-  }
-}
-.footer-top__link {
-  text-decoration: none;
-}
-.footer-top__link_social {
-  width: 36px;
-  height: 36px;
-  padding-right: 15px;
-}
-.footer-top__link_social:last-child {
-  padding-right: 0px;
-}
-.footer-top__link_app:first-child {
-  padding-right: 8px;
-}
-.footer-top__link_hh {
-  width: 46px;
-  height: 46px;
-}
-.footer-top__icon_social {
-  width: 36px;
-  height: 36px;
-}
-.footer-top__icon_hh {
-  width: 46px;
-  height: 46px;
-}
 .footer-line {
   width: 100%;
   border-bottom: #666666 1px solid;
@@ -477,6 +430,43 @@ body {
 .footer-bottom__text {
   color: #999999;
   line-height: 20px;
+}
+.icons-container {
+  padding-bottom: 30px;
+}
+.icons-container_desktop {
+  display: none;
+}
+@media (min-width: 1000px) {
+  .icons-container_desktop {
+    display: block;
+  }
+}
+.icon-link {
+  text-decoration: none;
+}
+.icon-link_social {
+  width: 36px;
+  height: 36px;
+  padding-right: 15px;
+}
+.icon-link_social:last-child {
+  padding-right: 0px;
+}
+.icon-link_app:first-child {
+  padding-right: 8px;
+}
+.icon-link_hh {
+  width: 46px;
+  height: 46px;
+}
+.icon_social {
+  width: 36px;
+  height: 36px;
+}
+.icon_hh {
+  width: 46px;
+  height: 46px;
 }
 
 /*# sourceMappingURL=index.7405850c.css.map */
