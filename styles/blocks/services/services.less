@@ -1,26 +1,18 @@
-.services{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  @media @screen-gt-s{
-    flex-direction: row;
-  }
-}
 .service-item {
   display: flex;
   justify-content: left;
   align-items: center;
   margin-bottom: 30px;
-  //&:last-child{
-  //  margin-bottom: 0px;   // Почему-то не правильно работало
-  //}
+
   &__image {
     width: 40px;
     height: $width;
     margin-right: 22px;
+
     @media @screen-gt-s {
       margin-right: 10px;
     }
+
     @media @screen-gt-m {
       margin-right: 30px;
     }
@@ -35,6 +27,7 @@
 
   &__br {
     display: none;
+
     @media @screen-gt-s {
       display: block;
     }
